@@ -8,16 +8,27 @@ This report provides a comprehensive analysis of these requirements, focusing on
 1.1. UK Requirements for Informed Consent
 In the UK, informed consent is a cornerstone of ethical research involving human participants, particularly in psychometric and cognitive testing. The HRA and BPS provide detailed guidance on the principles and practicalities of obtaining consent. Consent must be:
 • 	Freely given: Participants must not feel coerced or unduly influenced.
+
 • 	Specific: Consent should be for clearly defined purposes, including primary data collection and any anticipated secondary uses.
+
 • 	Informed: Participants must receive comprehensive information about the study, including its aims, procedures, risks, benefits, data handling, and their rights.
+
 • 	Unambiguous: Consent must be indicated through a clear affirmative action (e.g., signing a consent form).
+
 The HRA, in collaboration with the Medical Research Council (MRC), provides online tools and templates for participant information sheets (PIS) and consent forms. These templates are designed to ensure compliance with both ethical and legal standards, including the UK GDPR. The recommended content includes:
+
 • 	Study title and purpose
+
 • 	What participation involves
+
 • 	Risks and benefits
+
 • 	Confidentiality and data protection (including GDPR transparency wording)
+
 • 	Voluntary nature of participation and right to withdraw
+
 • 	Contact details for queries or complaints
+
 For studies involving children, young people, or adults lacking capacity, additional safeguards and tailored consent processes are required, as outlined in the Mental Capacity Act 2005 and related guidance.
 1.2. EU Requirements for Informed Consent
 The EU GDPR and the European Data Protection Board (EDPB) Guidelines 05/2020 on consent set out similar standards for informed consent in research. Key elements include:
@@ -31,7 +42,7 @@ Both UK and EU frameworks require that consent for secondary use of data (e.g., 
 1.4. Documentation Templates
 The HRA and IRAS provide up-to-date templates for consent forms and participant information sheets, incorporating GDPR transparency wording and tailored sections for special populations. These templates are widely accepted by RECs and are expected to be used without modification unless justified.
 
-2. Research Ethics Committee (REC/IRB) Approval Processes
+3. Research Ethics Committee (REC/IRB) Approval Processes
 2.1. UK REC Approval Process
 In the UK, research involving human participants, especially in health, social care, or large-scale normative studies, requires review and approval by a REC recognized by the HRA. The process involves:
 • 	Application via IRAS: Researchers complete a detailed application on the Integrated Research Application System (IRAS), including study protocol, consent documents, data management plans, and supporting materials.
@@ -50,7 +61,7 @@ For non-interventional or normative cognitive studies, national research ethics 
 2.3. Documentation and Templates
 The IRAS and HRA provide comprehensive templates for supporting documents, including model agreements, confidentiality disclosures, and material transfer agreements. These are expected to be used without modification to ensure consistency and compliance.
 
-3. Data Protection and Privacy Rules under UK GDPR and EU GDPR
+4. Data Protection and Privacy Rules under UK GDPR and EU GDPR
 3.1. Special Category Data: Cognitive and Biometric Data
 Cognitive performance data, when linked to identifiable individuals, is classified as personal data. If it reveals information about health, neurodiversity, or is used for identification (e.g., biometric templates), it is considered special category data under Article 9 of the UK GDPR and EU GDPR, warranting enhanced protection.
 Special category data includes:
@@ -82,7 +93,7 @@ Participants retain rights over their data, including:
 • 	Right to rectification, erasure, restriction, portability, and objection
 Research exemptions may apply where fulfilling these rights would undermine research objectives, but controllers must justify and document such decisions, and inform data subjects accordingly.
 
-4. Publishing and Sharing De-identified Normative Datasets
+5. Publishing and Sharing De-identified Normative Datasets
 4.1. Rules for Publishing De-identified Data
 Publishing normative datasets is encouraged under open science and FAIR (Findable, Accessible, Interoperable, Reusable) principles, but only if data is robustly anonymised. Key requirements include:
 • 	Anonymisation: Data must be processed so individuals cannot be identified by any means reasonably likely to be used, considering all available information and the “motivated intruder” test.
@@ -105,7 +116,7 @@ Adopting FAIR principles enhances data utility and compliance:
 • 	Apply clear licensing and provenance information.
 However, FAIRness must be balanced with privacy and data protection obligations; only truly anonymised data should be made openly accessible.
 
-5. Cross-Border Data Transfer and Cloud Storage Compliance
+6. Cross-Border Data Transfer and Cloud Storage Compliance
 5.1. Cross-Border Data Transfer Requirements
 Transfers of personal data outside the UK or EU/EEA are tightly regulated:
 • 	Adequacy Decisions: Transfers to countries deemed “adequate” by the UK or EU (e.g., EEA, Switzerland, Japan, South Korea, US under Data Privacy Framework) are permitted without additional safeguards.
@@ -122,7 +133,7 @@ Storing cognitive test data in the cloud is permissible if:
 • 	Data retention and deletion policies are enforceable, including post-contract termination.
 Controllers remain responsible for ensuring ongoing compliance, even when using third-party cloud services.
 
-6. Professional and Regulatory Guidance
+7. Professional and Regulatory Guidance
 6.1. British Psychological Society (BPS) and International Test Commission (ITC)
 The BPS provides extensive best practice guidelines on psychometric testing, test use, communicating results, and managing neurodiversity and disability in testing contexts. Key points include:
 • 	Ensuring tests are valid, reliable, and appropriate for the population
@@ -140,7 +151,7 @@ For health-related cognitive data, the HRA requires:
 The ICO is the UK’s data protection regulator, providing authoritative guidance on GDPR compliance, anonymisation, data sharing, international transfers, and research exemptions. The European Data Protection Board (EDPB) issues binding guidelines for EU GDPR interpretation and enforcement.
 Controllers should regularly consult ICO and EDPB updates, especially in light of evolving legislation such as the Data (Use and Access) Act 2025 and the EU’s digital omnibus reforms.
 
-7. AI and Algorithmic Use of Normative Cognitive Data
+8. AI and Algorithmic Use of Normative Cognitive Data
 7.1. EU AI Act Relevance
 The EU Artificial Intelligence Act (AI Act), entering into force in August 2026, imposes specific requirements on high-risk AI systems, including those using normative cognitive data for training, validation, or testing. Key obligations include:
 • 	Use of high-quality, relevant, representative, and bias-mitigated datasets
@@ -150,7 +161,7 @@ The EU Artificial Intelligence Act (AI Act), entering into force in August 2026,
 • 	Prohibition on transmitting special category data to third parties, except under strict conditions.
 Controllers developing or deploying AI systems with normative cognitive data must ensure compliance with both GDPR and AI Act requirements, including DPIAs and algorithmic transparency.
 
-8. Ethical Issues: Vulnerable Participants, Capacity, and Neurodiversity
+9. Ethical Issues: Vulnerable Participants, Capacity, and Neurodiversity
 8.1. Vulnerable Participants and Capacity
 Special ethical considerations apply when research involves:
 • 	Children and young people: Parental consent and age-appropriate information required; national laws may set digital consent age (typically 13–16 in EU).
@@ -164,13 +175,13 @@ A DPIA is mandatory for large-scale processing of special category data, systema
 • 	Identify measures to mitigate risks
 • 	Document consultation with stakeholders (e.g., DPO, ethics committee, affected groups).
 
-9. Data Retention, Archiving, and Destruction Policies
+10. Data Retention, Archiving, and Destruction Policies
 Controllers must define and document:
 • 	Retention periods: Data kept only as long as necessary for research purposes, subject to legal and ethical obligations.
 • 	Archiving: Long-term storage for scientific or historical research may be justified, with appropriate safeguards (e.g., pseudonymisation, access controls).
 • 	Destruction: Secure deletion or anonymisation when data is no longer needed, with documented procedures and audit trails.
 
-10. Governance, International Collaboration, and Open Data
+11. Governance, International Collaboration, and Open Data
 10.1. Governance Structures
 Effective governance includes:
 • 	Appointment of a Data Protection Officer (DPO) for large-scale or high-risk processing
@@ -182,7 +193,7 @@ EU-UK data transfers are currently permitted under adequacy decisions, but organ
 10.3. Open Data and FAIR Principles
 Open data publication is encouraged where possible, provided privacy is protected. The FAIR principles guide responsible sharing, maximizing research value while ensuring compliance with legal and ethical standards.
 
-11. Compliance Checklist and Documentation Guide
+12. Compliance Checklist and Documentation Guide
 
 
 11.1. Compliance Checklist Table
