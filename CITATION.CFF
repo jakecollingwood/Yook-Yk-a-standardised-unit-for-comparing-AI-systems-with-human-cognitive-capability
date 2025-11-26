@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Yook: A standardised unit for AI–human comparability"
+authors:
+  - family-names: "Collingwood"
+    given-names: "Jake"
+date-released: "2025-11-26"
+version: "v1.0"
+url: "https://github.com/your-repo-url"
+license: "CC BY 4.0"
